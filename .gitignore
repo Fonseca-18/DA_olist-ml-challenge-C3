@@ -1,0 +1,17 @@
+# Datos Olist: no publicar archivos originales ni muestras completas
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+
+# Entornos y cachés de Python/Jupyter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Archivos del sistema y temporales
+.DS_Store
+Thumbs.db
+*.tmp
