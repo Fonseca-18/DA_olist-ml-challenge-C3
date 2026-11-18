@@ -1,0 +1,5 @@
+modelo,transformacion,C,conjunto_evaluado,umbral,componentes_pca,variables_entrada_logistica,accuracy,precision,recall,f1,average_precision,roc_auc,TN,FP,FN,TP,costo_fp_brl,costo_fn_brl,costo_total_brl
+A,Sin PCA,1.0,validacion,0.5,,151,0.657333,0.119261,0.634831,0.2008,0.146215,0.701867,3225,1669,130,226,13352,4550,17902
+B,PCA 90 %,1.0,validacion,0.5,15.0,142,0.641905,0.110031,0.603933,0.186147,0.122989,0.656809,3155,1739,141,215,13912,4935,18847
+C,PCA 90 %,0.1,validacion,0.5,15.0,142,0.64,0.109868,0.606742,0.186047,0.123644,0.658044,3144,1750,140,216,14000,4900,18900
+D,PCA 90 %,10.0,validacion,0.5,15.0,142,0.639619,0.108961,0.601124,0.184483,0.122578,0.656549,3144,1750,142,214,14000,4970,18970
